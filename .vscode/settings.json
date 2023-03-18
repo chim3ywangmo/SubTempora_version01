@@ -1,0 +1,137 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.makePath": "/usr/bin/make",
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/chim3yy/Repos/SubTempora-final",
+            "binaryPath": "/home/chim3yy/Repos/SubTempora-final/SubTempora.exe",
+            "binaryArgs": [],
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "cwd": "/work/home/cw24wity/Repos/SubTempora-final",
+            "binaryPath": "/work/home/cw24wity/Repos/SubTempora-final/SubTempora.exe",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/work/home/cw24wity/Repos/SubTempora-latest",
+            "binaryPath": "/work/home/cw24wity/Repos/SubTempora-latest/SubTempora.exe",
+            "binaryArgs": []
+        }
+    ],
+
+    "files.associations": {
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp",
+        "cmath": "cpp",
+        "bitset": "cpp",
+        "unordered_map": "cpp",
+        "exception": "cpp",
+        "fstream": "cpp",
+        "functional": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "optional": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "iostream": "cpp",
+        "stdexcept": "cpp",
+        "string": "cpp",
+        "bit": "cpp",
+        "unordered_set": "cpp",
+        "iomanip": "cpp",
+        "memory": "cpp",
+        "numeric": "cpp",
+        "atomic": "cpp",
+        "cstdarg": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "random": "cpp"
+    },
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.highlights.customHighlight": {
+
+
+        "BUG": {
+            "icon": "bug",
+            "foreground": "black",
+            "background": "red",
+            "iconColour": "red"
+        },
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "icon": "flame",
+            "foreground": "black",
+            "background": "yellow",
+            "iconColour": "yellow"
+        },
+        "XXX": {
+            "icon": "$(close)"
+        },
+        "[ ]":{
+            "icon": "check",
+            "foreground": "black",
+            "background": "white",
+            "iconColour": "yellow"
+        },
+        "[x]":{
+            "icon": "check",
+            "foreground": "white",
+            "background": "green",
+            "iconColour": "green"
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "white",
+            "background": "gray",
+            "iconColour": "gray",
+        },
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "NOTE"
+    ]
+}

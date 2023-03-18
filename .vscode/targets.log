@@ -1,0 +1,1014 @@
+/usr/bin/make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sat Mar 18 08:31:49 2023
+
+# Variables
+
+# environment
+HPC_SCRATCH = /work/scratch/cw24wity
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/cw24wity/.vscode-server
+# environment
+MODULEPATH = /shared/modules
+# environment
+TUDA_MODULES_ROOT = /shared/modules
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+define BASH_FUNC_ml%%
+() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+endef
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /work/home/cw24wity/Repos/SubTempora-latest1
+# makefile
+SHELL = /bin/sh
+# environment
+LMOD_DIR = /opt/lmod/8.6.14/libexec
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+HISTCONTROL = ignoredups
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 24)
+CXXFLAGS = -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/322446627/bus
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /work/home/cw24wity
+# environment
+SSH_CONNECTION = 2003:fb:f1d:606e:80e4:8e29:8383:94e0 58881 2001:41b8:83f:1701:0:8253:8ad0:1 22
+# environment
+PATH = /work/home/cw24wity/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/shared/bin:/shared/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/usr/lpp/mmfs/bin:/opt/slurm/current/bin:/usr/lpp/mmfs/bin
+# environment
+LMOD_CMD = /opt/lmod/8.6.14/libexec/lmod
+# environment
+XDG_RUNTIME_DIR = /run/user/322446627
+# environment
+BASH_ENV = /opt/lmod/8.6.14/init/bash
+# environment
+LMOD_ADMIN_FILE = /shared/modules/admin.list
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/322446627/vscode-ipc-66b08bb4-ad50-420b-9e50-31d832c9ddd5.sock
+# environment
+LMOD_VERSION = 8.6.14
+# makefile (from 'Makefile', line 4)
+LDFLAGS = -Llib/FastPFor -llibFastPFOR
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SQUEUE_USERS = cw24wity
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /work/home/cw24wity/Repos/SubTempora-latest1
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANPATH = /opt/lmod/8.6.14/share/man:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/cw24wity
+# environment
+LMOD_CACHED_LOADS = yes
+# environment
+LD_LIBRARY_PATH = /opt/slurm/current/lib:/opt/slurm/current/lib/slurm:/opt/slurm/current/lib:/opt/slurm/current/lib/slurm
+# environment
+MODULESHOME = /opt/lmod/8.6.14
+# environment
+LOGNAME = cw24wity
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 33)
+HEADERS = $(shell ls include/*.h) $(shell ls include/ewah/*.h) $(shell ls include/SIMDPFor/*.h) $(shell ls include/vf2lib/*.h)
+# environment
+HPC_LOCAL = /tmp
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+LMOD_sys = Linux
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = logc0005
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 5
+# environment
+XDG_SESSION_ID = 2366
+# environment
+USER = cw24wity
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 25)
+CCFLAGS = -fpic -mavx -std=c99 -pedantic -g -Wall -Wextra -Wsign-compare -Wwrite-strings -Wpointer-arith -Winit-self -Wno-sign-conversion 
+# makefile (from 'Makefile', line 61)
+UNAME := Linux
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+SQUEUE_FORMAT = %.10i %.9P %.8j %.8u %.8T %.10M %.10l %10Q %.6D %R
+# environment
+MODULEPATH_ROOT = /opt/modulefiles
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /usr/bin/make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+define BASH_FUNC_module%%
+() {  local __lmod_my_status;
+ local __lmod_sh_dbg;
+ if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD bash "$@")" && eval $(${LMOD_SETTARG_CMD:-:} -s sh);
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ return $__lmod_my_status
+}
+endef
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 2003:fb:f1d:606e:80e4:8e29:8383:94e0 58881 22
+# environment
+MAIL = /var/spool/mail/cw24wity
+# environment
+TUDA_APPS_ROOT = /shared/apps
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /work/home/cw24wity/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+endef
+# environment
+LMOD_PKG = /opt/lmod/8.6.14
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LMOD_PACKAGE_PATH = /shared/etc/lmod
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 19)
+CXX = g++-4.7
+# environment
+LC_ALL = C
+# environment
+SINFO_FORMAT = %.9P %.5a %.10l %.16F %N
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# environment
+LMOD_ROOT = /opt/lmod
+# environment
+LMOD_SETTARG_FULL_SUPPORT = no
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 63)
+OBJECTS = Timer.o HRTree.o HRTreeIVSPFor.o HGraph.o GraphReader.o BuildManager.o HRTreeIV.o
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# environment
+LANG = C
+# environment
+which_declare = declare -f
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=11/154=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 779222253): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.cpp:
+
+%.o:
+
+%.c:
+
+%.h:
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+include/SIMDPFor/hybm2.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:28.178085285
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/dict.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.302763
+#  File has been updated.
+ 
+#  Successfully updated.
+
+# Not a target:
+include/ewah/ewahutil.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:22.508448
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/streamvariablebyte.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:30.718767
+#  File has been updated.
+#  Successfully updated.
+
+astyle:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	astyle --options=astyle.conf --recursive "*.cpp" "*.h"
+
+# Not a target:
+include/vf2lib/gene.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.378946129
+#  File has been updated.
+#  Successfully updated.
+
+SubTempora: include/BuildManager.h include/SubTempora.h src/SubTempora.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := SubTempora
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := include/BuildManager.h include/SubTempora.h src/SubTempora.cpp
+# automatic
+# | := 
+# automatic
+# < := include/BuildManager.h
+# automatic
+# ^ := include/BuildManager.h include/SubTempora.h src/SubTempora.cpp
+# automatic
+# ? := include/BuildManager.h include/SubTempora.h src/SubTempora.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from 'Makefile', line 66):
+	$(CXX) $(CXXFLAGS) -o SubTempora.exe src/SubTempora.cpp $(OBJECTS) -Iinclude -Llib/SIMDPFor -lSIMDCompressionAndIntersection -Llib/vf2lib -lvf
+
+# Not a target:
+include/vf2lib/argedit.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.138904407
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/ull_sub_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.624084516
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/mersenne.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:28.807051243
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/codecs.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.562441
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/VarIntG8IU.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:32.05379
+#  File has been updated.
+#  Successfully updated.
+
+all: Timer.o HRTree.o HRTreeIVSPFor.o HGraph.o GraphReader.o BuildManager.o HRTreeIV.o SubTempora
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 36):
+	echo "Build completed"
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SubTempora.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.453677088
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/GGSXVFLib.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.186617132
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean astyle
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SIMDPFor/delta.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.649131302
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/HGraph.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.262040509
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/vf2_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.690717368
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/HRTree.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 19:46:06.167789151
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/skipping.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:30.57874
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/simdbitpackinghelpers.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:29.437734
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/HRTreeIV.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 21:52:22.29879677
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/MatchManager.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.446879593
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/synthetic.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:31.020012
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/simdbinarypacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:29.048193
+#  File has been updated.
+#  Successfully updated.
+
+.SUFFIXES: .cpp .o .c .h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SIMDPFor/forcodec.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:27.400804904
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-18 01:29:27.849468935
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/ull_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.569473018
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/match.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.465511544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/vf2_mono_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.637684778
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/boolarray.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.448477
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/ewah/boolarray.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:21.382809
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/VF2GraphReaders.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.515880751
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/usimdbitpacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:31.802075
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/vf2_sub_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.71643064
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/Timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.51295825
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/BuildManager.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 19:48:14.604656
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/argraph.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.238822
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/SubTempora.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-18 01:30:39.485846
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/HGraph.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.96595646
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/HRTree.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.975997302
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/gene_mesh.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.42374235
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/HRTreeIVSPFor.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.383962444
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/bitpackinghelpers.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.421200434
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/intersection.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:28.69104109
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/HRTreeIV.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-18 01:05:21.796139
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/ewah/ewah-inl.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:21.760234097
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/GraphReader.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-18 00:58:13.300443532
+#  File has been updated.
+#  Successfully updated.
+
+BuildManager.o: include/HRTree.h include/HRTreeIV.h include/ewah/ewah.h include/HRTreeIVSPFor.h include/GraphReader.h include/BuildManager.h src/BuildManager.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:30:01.290400669
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(CXX) $(CXXFLAGS) -c src/BuildManager.cpp -Iinclude
+
+# Not a target:
+include/SIMDPFor/simdfastpfor.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:29.482992
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/binarypacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.192187
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/codecfactory.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.514046891
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/simdbitpacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:29.392724
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/sortedbitpacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:30.646985
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/deltatemplates.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.703922
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/bitpacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.375183
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/varintgb.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:32.1626625
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/integratedbitpacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:28.446021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Timer.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:51.159414684
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/BuildManager.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-18 01:11:10.409524
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SIMDPFor/fastpfor.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.719653
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/SIMDPFor/simdintegratedbitpacking.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:30.067592136
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/xsubgraph.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.865005532
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/HRTreeIVSPFor.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:51.097681153
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/LabelMap.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:45:50.386398096
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/frameofreference.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:28.084764
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/error.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.30922195
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/util.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:31.845109771
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/simdvariablebyte.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:30.48905
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	rm -f *.o Timer.o HRTree.o Timer.o HRTree.o HRTreeIVSPFor.o HGraph.o GraphReader.o BuildManager.o HRTreeIV.o
+	rm -f Results/HRTree/*
+	rm -f Results/HRTreeIVSIMDPFor/*
+	rm -f Results/HRTreeBMEWAH/*
+
+# Not a target:
+src/GraphReader.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-18 00:44:39.712953802
+#  File has been updated.
+#  Successfully updated.
+
+HGraph.o: include/HRTree.h include/HGraph.h src/HGraph.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:29:56.587257835
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 52):
+	$(CXX) $(CXXFLAGS) -c src/HGraph.cpp -Iinclude
+
+HRTree.o: include/Timer.h include/ewah/ewah.h include/HRTree.h src/HRTree.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:29:54.694950154
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 43):
+	$(CXX) $(CXXFLAGS) -c src/HRTree.cpp -Iinclude
+
+# Not a target:
+include/SIMDPFor/common.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.578522742
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/for.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:27.355755
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/variablebyte.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:31.907767376
+#  File has been updated.
+#  Successfully updated.
+
+HRTreeIV.o: include/BuildManager.h include/GGSXVFLib.h include/GraphReader.h include/HGraph.h include/HRTree.h include/HRTreeIV.h include/HRTreeIVSPFor.h include/LabelMap.h include/MatchManager.h include/SubTempora.h include/Timer.h include/VF2GraphReaders.h include/ewah/boolarray.h include/ewah/ewah-inl.h include/ewah/ewah.h include/ewah/ewahutil.h include/ewah/runninglengthword.h include/SIMDPFor/VarIntG8IU.h include/SIMDPFor/binarypacking.h include/SIMDPFor/bitpacking.h include/SIMDPFor/bitpackinghelpers.h include/SIMDPFor/boolarray.h include/SIMDPFor/codecfactory.h include/SIMDPFor/codecs.h include/SIMDPFor/common.h include/SIMDPFor/compositecodec.h include/SIMDPFor/delta.h include/SIMDPFor/deltatemplates.h include/SIMDPFor/fastpfor.h include/SIMDPFor/for.h include/SIMDPFor/forcodec.h include/SIMDPFor/frameofreference.h include/SIMDPFor/hybm2.h include/SIMDPFor/integratedbitpacking.h include/SIMDPFor/intersection.h include/SIMDPFor/mersenne.h include/SIMDPFor/platform.h include/SIMDPFor/simdbinarypacking.h include/SIMDPFor/simdbitpacking.h include/SIMDPFor/simdbitpackinghelpers.h include/SIMDPFor/simdfastpfor.h include/SIMDPFor/simdintegratedbitpacking.h include/SIMDPFor/simdvariablebyte.h include/SIMDPFor/skipping.h include/SIMDPFor/sortedbitpacking.h include/SIMDPFor/streamvariablebyte.h include/SIMDPFor/synthetic.h include/SIMDPFor/timer.h include/SIMDPFor/usimdbitpacking.h include/SIMDPFor/util.h include/SIMDPFor/variablebyte.h include/SIMDPFor/varintgb.h include/vf2lib/allocpool.h include/vf2lib/argedit.h include/vf2lib/argloader.h include/vf2lib/argraph.h include/vf2lib/dict.h include/vf2lib/error.h include/vf2lib/gene.h include/vf2lib/gene_mesh.h include/vf2lib/match.h include/vf2lib/sd_state.h include/vf2lib/state.h include/vf2lib/ull_state.h include/vf2lib/ull_sub_state.h include/vf2lib/vf2_mono_state.h include/vf2lib/vf2_state.h include/vf2lib/vf2_sub_state.h include/vf2lib/vf_mono_state.h include/vf2lib/vf_state.h include/vf2lib/vf_sub_state.h include/vf2lib/xsubgraph.h src/HRTreeIV.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:30:03.711597808
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 46):
+	$(CXX) $(CXXFLAGS) -c src/HRTreeIV.cpp -Iinclude 
+
+# Not a target:
+include/ewah/runninglengthword.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:22.878110066
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/platform.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:28.83695193
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/vf_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.792679812
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/argloader.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.228729
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:31.299093149
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/SIMDPFor/compositecodec.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:26.634777564
+#  File has been updated.
+#  Successfully updated.
+
+GraphReader.o: include/Timer.h include/LabelMap.h include/HGraph.h include/GraphReader.h src/GraphReader.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:29:58.260348341
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	$(CXX) $(CXXFLAGS) -c src/GraphReader.cpp -Iinclude
+
+Timer.o: include/Timer.h src/Timer.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:29:53.40868817
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	$(CXX) $(CXXFLAGS) -c src/Timer.cpp -Iinclude
+
+# Not a target:
+include/vf2lib/vf_sub_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.840261951
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/ewah/ewah.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:22.131034251
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/allocpool.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.138907
+#  File has been updated.
+#  Successfully updated.
+
+HRTreeIVSPFor.o: include/Timer.h include/HRTree.h include/HRTreeIVSPFor.h src/HRTreeIVSPFor.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2023-03-18 01:29:55.400035367
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 49):
+	$(CXX) $(CXXFLAGS) -c src/HRTreeIVSPFor.cpp -Iinclude
+
+# Not a target:
+include/vf2lib/sd_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.503966352
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.551607541
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/vf2lib/vf_mono_state.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-17 15:46:34.760615081
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=24/249=10%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 117 / storage = 2460 B / avg = 21 B
+# current buf: size = 8162 B / used = 2460 B / count = 117 / avg = 21 B
+
+# strcache performance: lookups = 178 / hit rate = 34%
+# hash-table stats:
+# Load=117/8192=1%, Rehash=0, Collisions=9/178=5%
+# Finished Make data base on Sat Mar 18 08:31:49 2023
+
+ 

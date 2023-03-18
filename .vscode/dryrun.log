@@ -1,0 +1,13 @@
+/usr/bin/make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/work/home/cw24wity/Repos/SubTempora-latest1'
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/Timer.cpp -Iinclude
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/HRTree.cpp -Iinclude
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/HRTreeIVSPFor.cpp -Iinclude
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/HGraph.cpp -Iinclude
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/GraphReader.cpp -Iinclude
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/BuildManager.cpp -Iinclude
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -c src/HRTreeIV.cpp -Iinclude 
+g++ -fpic -mavx -std=c++11  -Weffc++ -pedantic -g -Wall  -Wextra -Wsign-compare  -Wwrite-strings -Wpointer-arith -Winit-self  -Wno-sign-conversion  -o SubTempora.exe src/SubTempora.cpp Timer.o HRTree.o HRTreeIVSPFor.o HGraph.o GraphReader.o BuildManager.o HRTreeIV.o -Iinclude -Llib/SIMDPFor -lSIMDCompressionAndIntersection -Llib/vf2lib -lvf
+echo "Build completed"
+make: Leaving directory '/work/home/cw24wity/Repos/SubTempora-latest1'
+ 
